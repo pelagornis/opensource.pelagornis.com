@@ -1,0 +1,15 @@
+url: https://opensource.pelagornis.com
+title: Pelagornis Open Source
+description: "Open Source Website for Pelagornis"
+timezone: Asia/Seoul
+safe: true
+future: true
+asset_url: /assets
+highlighter: rouge
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-soopr-seo-tag
