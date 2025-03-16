@@ -1,0 +1,28 @@
+---
+layout: default
+title: Home
+---
+
+<div class="p-title">
+    <h1>Pelagornis Open Source</h1>
+    <p>
+        With open-source software, Pelargonis products and services give customers multiple choices and build a world where they can connect together.
+    </p>
+</div>
+
+<input type="text" id="searchInput" placeholder="Search" onkeyup="filterRepos()">
+
+<ul id="repo-list"></ul>
+
+<div class="pagination">
+    <button onclick="prevPage()">
+        <img src="{{ '/assets/images/icons/leftArrow.svg' | relative_url}}"></img>
+    </button>
+    <span id="page-info"></span>
+    <button onclick="nextPage()">
+        <img src="{{ '/assets/images/icons/rightArrow.svg' | relative_url }}"></img>
+    </button>
+</div>
+
+<script src="{{ '/assets/javascript/opensource.js' | relative_url }}"></script>
+
