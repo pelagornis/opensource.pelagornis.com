@@ -1,6 +1,6 @@
 # Pelagornis Open Source
 
-![Official](https://img.shields.io/badge/project-official-green.svg?colorA=303033&colorB=226af6&label=Pelagornis)
+![Official](https://badge.pelagornis.com/official.svg)
 
 <img width=100% src="./assets/images/thumbnail.svg"></img>
 
